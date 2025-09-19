@@ -9,5 +9,5 @@ web.set_page_config(page_title="Rayyan :)" , page_icon=img)
 
 if web.button("Click to Celebrate !!!") :
 
-    web.balloons
+    web.balloons()
 
