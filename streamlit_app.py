@@ -1,6 +1,13 @@
-import streamlit as st
+import streamlit as web
+from PIL import Image
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+img  = Image.open("favi.png")
+
+web.write("# Rayyan Made This")
+
+web.set_page_config(page_title="Rayyan :)" , page_icon=img)
+
+if web.button("Click to Celebrate !!!") :
+
+    web.balloons
+
